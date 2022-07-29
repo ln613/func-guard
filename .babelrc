@@ -1,0 +1,4 @@
+{
+  "plugins": ["babel-plugin-function-decorators"],
+  "presets": ["@babel/preset-env"]
+}

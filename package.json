@@ -1,0 +1,18 @@
+{
+  "name": "func-guard",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist",
+  "scripts": {
+    "watch": "watch \"yarn build\" src",
+    "build": "babel src --out-dir dist"
+  },
+  "author": "Nan Li",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-plugin-function-decorators": "^1.0.0"
+  }
+}
